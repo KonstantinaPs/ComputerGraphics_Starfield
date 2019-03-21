@@ -18,16 +18,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\skeleton.cpp">
+    <ClInclude Include="SDLauxiliary.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="TestModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\TestModel.h">
+    <ClCompile Include="skeleton.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\SDLauxiliary.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

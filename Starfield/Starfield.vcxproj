@@ -121,11 +121,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\skeleton.cpp" />
+    <ClInclude Include="SDLauxiliary.h" />
+    <ClInclude Include="TestModel.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\SDLauxiliary.h" />
-    <ClInclude Include="..\..\..\..\Documents\UOB\Academic Year 2018-19\Computer Graphics\COMS30115\Labs\starfield\Source\TestModel.h" />
+    <ClCompile Include="skeleton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
